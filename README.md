@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Sri Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal portfolio website built with **React**, **Tailwind CSS**, and popular open-source libraries. This project showcases your skills, projects, and professional profile.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- Responsive and mobile-friendly design
+- Animated transitions with Framer Motion
+- Routing with React Router
+- Modular component structure
+- Easy to update and maintain
+- Styled using Tailwind CSS
+- Ready for deployment
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (v14+ recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Sri-Krishnan007/sri-portfolio.git
+   cd sri-portfolio
+   ```
 
-### `npm run build`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+   The app will run locally at `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+sri-portfolio/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Main pages/routes for the site
+│   ├── App.js           # Root component
+│   ├── index.js         # Entry point
+│   └── ...              # Other supporting files
+├── package.json         # Project metadata and dependencies
+├── tailwind.config.js   # Tailwind CSS configuration
+├── postcss.config.js    # PostCSS configuration
+└── README.md            # Project documentation
+```
+*Note: For a full file list, see the [`src` directory on GitHub](https://github.com/Sri-Krishnan007/sri-portfolio/tree/master/src).*
 
-### `npm run eject`
+## 🛠 Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Router](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧪 Running Tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Production Build
 
-## Learn More
+```
+npm run build
+```
+This will create an optimized production build in the `build/` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-### Code Splitting
+## 🙏 Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Open-source libraries and tools used in this project
+- Inspiration from the React and Tailwind CSS communities
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Author:** [Sri-Krishnan007](https://github.com/Sri-Krishnan007)
